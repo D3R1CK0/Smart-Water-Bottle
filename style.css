@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f0f9ff;
+  color: #1e1e1e;
+  font-family: "Poppins", sans-serif;
+}
+#logo {
+  height: 80px;
+}
+#sechead h1 {
+  font-size: 100px;
+}
+#sechead p {
+  font-size: 30px;
+}
+nav > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+li {
+  margin-left: 30px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: larger;
+}
+
+nav a:hover {
+  text-decoration: wavy;
+  color: rgb(93, 199, 218);
+}
+#sechead {
+  margin-left: 60px;
+  margin-top: 200px;
+}
+#Order {
+  width: 100px;
+  border-radius: 20px;
+  border: 1px white solid;
+  padding: 10px;
+  background-color: rgb(67, 171, 228);
+  color: white;
+}
+#image {
+  position: relative;
+}
+#bottleimg {
+  position: absolute;
+  right: 0;
+  width: 45%;
+  height: 600px;
+  top: -540px;
+}
+/* nav{
+    position: sticky;
+    top: 0;
+} */
+#home {
+  background-color: #f0f9ff;
+}
+#head {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 180px;
+}
+.box {
+  width: 200px;
+  height: 250px;
+  border: 1px white solid;
+  border-radius: 8px;
+  font-size: 30px;
+}
+#parent {
+  display: flex;
+  justify-content: space-evenly;
+}
+.bottleimage {
+  width: 100%;
+  height: 100%;
+}
+#third h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.comm {
+  margin-top: 90px;
+  width: 45%;
+  height: 75%;
+}
+#review {
+  position: relative;
+  left: 800px;
+  bottom: 600px;
+  border: 1px #f0f9ff solid;
+  width: 400px;
+  border-radius: 10px;
+  left: 600px;
+}
+#review2 {
+  position: relative;
+  left: 800px;
+  bottom: 500px;
+  border: 1px #f0f9ff solid;
+  width: 400px;
+  border-radius: 10px;
+}
+#review3 {
+  position: relative;
+  left: 800px;
+  bottom: 360px;
+  border: 1px #f0f9ff solid;
+  width: 400px;
+  border-radius: 10px;
+}
+#review4 {
+  position: relative;
+  left: 1100px;
+  bottom: 500px;
+  border: 1px #f0f9ff solid;
+  width: 400px;
+  border-radius: 10px;
+  bottom: 980px;
+}
+#review5 {
+  position: relative;
+  left: 1100px;
+  bottom: 700px;
+  border: 1px #f0f9ff solid;
+  width: 400px;
+  border-radius: 10px;
+}
+#user3 {
+  margin-left: -60px;
+}
+#user2 {
+  margin-left: -60px;
+}
+#user {
+  margin-left: -60px;
+}
+.commentsection {
+  font-size: 20px;
+}
+.contentfooter {
+  text-align: center;
+}
+
+.contentfooter {
+  text-align: center;
+  position: relative;
+}
+.footerr {
+  color: black;
+  background-color: #d5dee3;
+}
+.ct{
+  text-decoration: none;
+}
+.footer-icon{
+  text-align: center;
+  margin-right: 20px;
+}
